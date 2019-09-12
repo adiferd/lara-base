@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/blank', function () {
+    return view('backoffice.index');
+});
